@@ -12,7 +12,7 @@ The json field is a simple field that validates the data and raises a form error
 if its not valid json.
 
 ```python
-from wtforms import fields, form, widget
+from wtforms import fields, form, widgets
 from starlette_admin.forms import fields as admin_fields
 from starlette_admin.forms import widgets as admin_widgets
 
